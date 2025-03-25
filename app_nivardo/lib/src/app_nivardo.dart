@@ -16,7 +16,7 @@ class AppNivardo extends StatelessWidget {
         '/':(_)=> LoginPage(),
         '/home':(_)=> HomePage(),
         '/cadastro': (_) => CadastroPage(),
-        '/tela-cadastro': (_) => TelaCadastro()
+        '/tela-cadastro': (_) => CadastroScreen()
       },
     );
   }
